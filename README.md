@@ -50,8 +50,10 @@ including test planning, test case documentation, and bug reporting.
 
 - AAA Pattern — Arrange, Act, Assert
 - Mocking with Mockito — NotificationService mocked in tests
-- Exception testing — IllegalArgumentException and IllegalStateException
-- Test isolation — @BeforeEach resets state before every test
+- Validated correct exception handling for invalid inputs 
+   and invalid system states using assertThrows()
+- Ensured full test independence using @BeforeEach 
+   to reset system state before each test execution
 - Behavior based test naming
 - Mock interaction verification with verify() and verifyNoInteractions()
 
